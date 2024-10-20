@@ -7,6 +7,13 @@ export default defineNuxtConfig({
         lang: "en",
       },
       link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+      script: [
+        {
+          defer: true,
+          src: "https://static.cloudflareinsights.com/beacon.min.js",
+          "data-cf-beacon": '{"token": "9d6bbecd96e94217a916d2bbf2a1a576"}',
+        },
+      ],
     },
   },
   devtools: { enabled: true },
