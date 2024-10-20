@@ -10,4 +10,15 @@ export default defineNuxtConfig({
     },
   },
   devtools: { enabled: true },
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "shadcn-nuxt",
+    "@nuxtjs/color-mode",
+    "@nuxt/fonts",
+    "@nuxt/icon",
+    "nuxt-svgo",
+  ],
+  colorMode: {
+    classSuffix: "",
+  },
 });

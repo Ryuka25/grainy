@@ -1,4 +1,6 @@
 const animate = require("tailwindcss-animate")
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -80,6 +82,10 @@ module.exports = {
         "collapsible-down": "collapsible-down 0.2s ease-in-out",
         "collapsible-up": "collapsible-up 0.2s ease-in-out",
       },
+      fontFamily: {
+        sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
+        serif: ["Arima", ...defaultTheme.fontFamily.serif],
+      }
     },
   },
   plugins: [animate],
