@@ -16,9 +16,17 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
     "@nuxt/fonts",
     "@nuxt/icon",
+    // "@nuxtjs/turnstile",
+    // "@nuxt/scripts",
     "nuxt-svgo",
+    "@nuxt/scripts",
+    "@nuxtjs/turnstile",
   ],
   colorMode: {
     classSuffix: "",
+  },
+  turnstile: {
+    // Check for local test: https://developers.cloudflare.com/turnstile/troubleshooting/testing/
+    siteKey: "0x4AAAAAAAx59Y_lpTiKTv7A",
   },
 });
