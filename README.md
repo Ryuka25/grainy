@@ -1,75 +1,19 @@
-# Nuxt Minimal Starter
+![Grainy](/docs/assets/grainy.jpg)
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# Grainy
 
-## Setup
+A to-do app designed to help you work efficiently by offering a granular and modular approach to task management. 
 
-Make sure to install dependencies:
+![Grainy Preview](/public/images/grainy-preview.jpg)
 
-```bash
-# npm
-npm install
+## Roadmap
 
-# pnpm
-pnpm install
+Feel free to check out our [🗒️ Grainy Roadmap 🗒️](https://trello.com/b/04tqvr00) if you're interested in upcoming features or future plans. If you encounter any issues, please report them via our [issue tracker](https://github.com/Ryuka25/grainy/issues). We also welcome suggestions and feature requests to help improve the project.
 
-# yarn
-yarn install
+## Contributing
 
-# bun
-bun install
-```
+Before contributing, please make sure to review our [Contributing Guide](/CONTRIBUTING.md) for detailed guidelines.
 
-## Development Server
+## License
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+This project is licensed under the [Apache-2.0 license](/LICENSE).
